@@ -159,3 +159,35 @@ div,img, a, section, h1, h2 ,p, h3, h4, h5, h6 {
     font-weight: normal;
     margin: 20px 0 0;
 }
+/*Секция, блок feinman*/
+.feinman {
+    background: #f2f2f2 url(../images/feinman.png) no-repeat bottom left;
+    position: relative;
+    height: 790px;
+    background-size: 867px 637px;
+}
+.feinman__title {
+    width: 648px;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+.feinman__subtitle {
+    margin: 70px 0 0;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+}
+.feinman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
