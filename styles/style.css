@@ -163,6 +163,7 @@
     position: relative;
     height: 790px;
     background-size: 867px 637px;
+    padding-top: 100px;
 }
 .feinman__title {
     width: 648px;
@@ -263,7 +264,7 @@
     margin: 0;
     color: white;
 }
-.footer__column-links {
+.footer__column-link {
     padding-left: 0;
     list-style: none;
     margin: 20px 0 16px 0;
