@@ -7,6 +7,14 @@
 
 }
 /*Шапка сайта*/
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .logo {
     width: 183px;
 }
@@ -17,6 +25,7 @@
     background-color: #f2f2f2;
     position: relative;
     display: flex;
+    overflow: hidden;
 }
 .logo_place_header {
     background-image: url(../images/logo.svg);
@@ -49,6 +58,10 @@
     color: #2f80ed;
     text-decoration: none;
 }
+.header__link:hover {
+  opacity: .5;
+  transition: .3s;
+}
 .header__main-illustration {
     position: absolute;
     bottom: 0;
@@ -64,6 +77,8 @@
     position: absolute;
     right: 0;
     top: 64px;
+    transform: rotate(-15deg);
+    animation: rotation infinite ease 20s;
 }
 /*стиль в общем для контента*/
 .content{
