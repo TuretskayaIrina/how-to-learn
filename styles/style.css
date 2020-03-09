@@ -190,9 +190,11 @@
 }
 /*Секция, блок oakley*/
 .oakley {
-  margin: 160px auto 80px;
+  padding-top: 160px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center;
+  background-color: #F2F2F2;
 }
 /*Секция, блок digits*/
 .digits {
@@ -350,6 +352,14 @@
   transition: .3s;
 }
 /*Скция, блок Кауфман*/
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .kaufman {
     padding: 90px 0;
     display: flex;
@@ -379,7 +389,34 @@
     right: -210px;
     top:0;
     z-index: -1;
+    animation: ease rotation infinite 20s;
 }
+
+/*Секция, блок resources*/
+
+.resources {
+  margin: 100px auto 217px;
+}
+.resources__logo-zone {
+  display: inline-flex;
+  flex-direction: row;
+  width: 1100px;
+  margin: 80px auto 0;
+  list-style-type: none;
+  padding: 0;
+}
+.resources__logo {
+  text-decoration: none;
+  width: 270px;
+  height: 38px;
+  text-align: center;
+  display: block;
+}
+.resources__logo:hover {
+  opacity: .5;
+  transition: .3s;
+}
+
 /*Подвал сайта, футер*/
 .footer {
     min-height: 350px;
@@ -435,6 +472,10 @@
     color: white;
     text-decoration: none;
   }
+  .footer__column-link:hover{
+  opacity: .5;
+  transition: .3s;
+  }
 .footer_colum_content_social {
     display: flex;
     flex-direction: column;
@@ -443,4 +484,8 @@
     margin-right: 10px;
     width: 16px;
     height: 16px;
+}
+.footer__social-icon:hover {
+  opacity: .5;
+  transition: .3s;
 }
