@@ -1,0 +1,6 @@
+/*стиль в общем для контента*/
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}

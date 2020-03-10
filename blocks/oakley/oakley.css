@@ -1,0 +1,9 @@
+/*Секция, блок oakley*/
+@import url(../two-columns/two-columns.css);
+.oakley {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: #F2F2F2;
+}

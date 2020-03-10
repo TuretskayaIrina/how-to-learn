@@ -1,0 +1,10 @@
+/*Секция, блок technics*/
+@import url(../section-title/section-title.css);
+@import url(../section-subtitle/section-subtitle.css);
+@import url(../cards/cards.css);
+
+.technics {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
